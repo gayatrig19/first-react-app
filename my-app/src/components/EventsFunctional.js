@@ -11,4 +11,4 @@ function EventsFunctional() {
   );
 }
 
-export default EventsFunctional
+export default EventsFunctional;

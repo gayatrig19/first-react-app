@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export class EventsClass extends Component {
+class EventsClass extends Component {
   clickHandler() {
     console.log("Clicked the class button");
   }
@@ -13,4 +13,4 @@ export class EventsClass extends Component {
   }
 }
 
-export default EventsClass
+export default EventsClass;

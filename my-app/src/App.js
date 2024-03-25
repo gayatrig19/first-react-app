@@ -11,6 +11,7 @@ import EventBinding from './components/EventBinding';
 import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import NestingComponents from './components/NestingComponents';
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <ConditionalRenderingFunctional connected={true} />
       <ConditionalRenderingClass />
       <NestingComponents />
+      <MethodsAsPropsParent />
     </div>
   );
 }

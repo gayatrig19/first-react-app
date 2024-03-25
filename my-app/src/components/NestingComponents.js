@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import UserMessage from './UserMessage';
 import UserData from './UserData';
+import UserMessage from './UserMessage';
 
-export class NestingComponents extends Component {
+class NestingComponents extends Component {
     constructor(props) {
       super(props);
     
