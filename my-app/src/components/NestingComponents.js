@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import UserMessage from './UserMessage';
+import UserData from './UserData';
 
 export class NestingComponents extends Component {
     constructor(props) {
@@ -13,7 +15,10 @@ export class NestingComponents extends Component {
     render() {
         return (
             <div>
-                <h1>{this.state.isLoaded ? 'Data loaded!' : 'Loading...'}</h1>
+                <UserData isLoaded={this.state.isLoaded} />
+                <UserMessage isLoggedIn={this.state.isLoggedIn} />
+
+                {/* <h1>{this.state.isLoaded ? 'Data loaded!' : 'Loading...'}</h1>
                 {this.state.isLoggedIn ? (
                     <div>
                         <p>Welcome to the site! Please complete the steps below:</p>
@@ -25,7 +30,8 @@ export class NestingComponents extends Component {
                     </div>
                 ) : (
                 <p>Please sign in</p>
-                )}
+                )} */}
+
             </div>
         );
     }
