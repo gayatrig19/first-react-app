@@ -6,7 +6,6 @@ export class SearchBar extends Component {
 
     constructor(props) {
         super(props)
-
         this.state = {
             names: importedNames,
         }
