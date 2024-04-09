@@ -23,6 +23,7 @@ import ControlledFormHooks from './components/ControlledFormHooks';
 import UseStateWithArrays from './components/UseStateWithArrays';
 import UseStateWithObjects from './components/UseStateWithObjects';
 import HooksCounter from './components/HooksCounter';
+import UseEffectCounter from './components/UseEffectCounter';
 
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
       <UseStateWithArrays />
       <UseStateWithObjects />
       <HooksCounter />
+      <UseEffectCounter />
     </div>
   );
 }
