@@ -25,12 +25,14 @@ import UseStateWithObjects from './components/UseStateWithObjects';
 import HooksCounter from './components/HooksCounter';
 import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+import HTTPRequests from './components/HTTPRequests';
+import HTTPPost from './components/HTTPPost';
 
 
 function App() {
   return (
     <div className="App">
-      <FunctionalGreeting />
+      {/* <FunctionalGreeting />
       <FunctionalGreetingWithProps greeting="Nice to meet you!!" name="Mike" age="32" />
       <StatefulGreeting greeting="I'm a stateful class component!" name="Gayatri" />
       <StatefulGreetingWithCallback greeting="I'm a stateful greeting class component with callback!" name="Gayatri" />
@@ -52,9 +54,11 @@ function App() {
       <ControlledFormHooks />
       <UseStateWithArrays />
       <UseStateWithObjects />
-      <HooksCounter />
+      <HooksCounter /> */}
       {/* <UseEffectCounter /> */}
-      <UseEffectCounterContainer />
+      {/* <UseEffectCounterContainer /> */}
+      <HTTPRequests />
+      <HTTPPost />
     </div>
   );
 }
